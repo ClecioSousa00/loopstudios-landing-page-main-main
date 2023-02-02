@@ -22,6 +22,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+  font-size: 62.5%;
+}
+.border{
+  border: 2px solid red;
+}
 header{
   background-image: url(../images/img-mobile/image-hero.jpg);
   height: 100vh;
@@ -30,31 +36,42 @@ header{
 
 }
 
-.nav-bar .logo-icon{
+.header__nav-bar .header__logo-icon{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-top: 40px;
+  padding-top: 4rem;
   
 }
-
-.nav-bar .icon-menu i{
-  color: white;
+.header__btn-menu{
+  background-color: transparent;
+  border: none;
 }
-.icon-click{
+
+.header__nav-bar .header__btn-menu i{
+  color: white;
+  
+}
+.header__icon-active{
     background-color: black;
     height: 100vh;
     width: 100vw;
-    padding: 50px 40px;
+    padding: 5rem 4rem;
     display: none;
-    transition: 3s;
+    
 }
 
-.icon-click .close{
+.header__icon-active .header__icon-close{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 150px;
+  margin-bottom: 15rem;
+}
+.header__icon-close{
+  color: white;
+}
+.menu-list ul li{
+  margin-bottom: 2rem;
 }
 
 .menu-list ul li a{
@@ -62,23 +79,56 @@ header{
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     line-height: 3rem;
+    margin-bottom: 2rem;
 }
 
-.title{
+.header__title{
   max-width: 80%;
-  
   border: 2px solid white;
-  margin: 300px auto;
-  padding: 45px;
+  margin: 30rem auto;
+  padding: 4.5rem;
   
 }
-.title h1{
-  font-size: 2.1rem;
+.header__title h1{
+  font-size: 3.4rem;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   color: white;
   text-transform: uppercase;
+}
+
+/* ----------------- */
+
+main{
+  width: 80%;
+  margin: auto;
+}
+
+.description{
+  margin-top: 10rem;
+}
+.description__image img{
+  width: 100%;
+}
+
+.description__text{
+  text-align: center;
+  margin-top: 6rem;
+}
+.description__text h2{
+  font-size: 3.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.description__text p{
+  font-size: 1.4rem;
+  font-family: 'Alata', sans-serif;
+  color: #ABABAB;
+  line-height: 2.5rem;
 }
