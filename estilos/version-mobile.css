@@ -132,3 +132,120 @@ main{
   color: #ABABAB;
   line-height: 2.5rem;
 }
+
+/* --------------- */
+
+.creations{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  
+}
+
+.creations h2{
+  font-size: 3.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+.creations__container{
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+}
+
+.creations__imagens{
+  width: 100%;
+  height: 15.5rem;
+  border: 2px solid green;
+  position: relative;
+
+}
+.creations__imagens p{
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 2.5rem;
+  max-width: 45%;
+  left: 2rem;
+  bottom: 2rem;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.301);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  
+}
+
+.earth-image{
+  background-image: url(../images/img-mobile/image-deep-earth.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nigth-image{
+  background-image: url(../images/img-mobile/image-night-arcade.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.soccer-image{
+  background-image: url(../images/img-mobile/image-soccer-team.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid-image{
+  background-image: url(../images/img-mobile/image-grid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.above-image{
+  background-image: url(../images/img-mobile/image-from-above.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pocket-image{
+  background-image: url(../images/img-mobile/image-pocket-borealis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.curiosity-image{
+  background-image: url(../images/img-mobile/image-curiosity.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fisheye-image{
+  background-image: url(../images/img-mobile/image-fisheye.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.creations__button{
+  margin: 3.5rem 0rem 8rem 0rem;
+  border: 0.2rem solid black;
+}
+.creations__button button{
+  border: none;
+  height: 6rem;
+  width: 20rem;
+  font-size: 2rem;
+  font-family: 'Alata', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+}
