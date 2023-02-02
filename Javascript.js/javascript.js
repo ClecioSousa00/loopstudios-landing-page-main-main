@@ -1,7 +1,7 @@
 
 let menuIcon = document.querySelector('#menu-icon')
 let nav = document.querySelector('#nav')
-let menuOpen = document.querySelector('.icon-click')
+let menuOpen = document.querySelector('.header__icon-active')
 let iconClose = document.querySelector('#icon-close')
 
 menuIcon.addEventListener('click',()=>{
