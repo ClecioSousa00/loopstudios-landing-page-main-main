@@ -11,21 +11,22 @@
 <body>
    
     <header>
-        <div class="nav-bar">
+        <div class="header__nav-bar">
             
-            <div id="nav" class="logo-icon">
+            <div id="nav" class="header__logo-icon">
                 <img src="images/icons/logo.svg" alt="loopstudios logo">
-                 <div class="icon-menu">
-                    <i class="material-symbols-outlined" id="menu-icon">menu</i>
-                </div>
+                 <button class="header__btn-menu">
+                    <span><i class="material-symbols-outlined" id="menu-icon">menu</i></span>
+                 </button>
             </div>
 
-            <div class="icon-click">
-                <div class="close">
+            <div class="header__icon-active">
+                <div class="header__icon-close">
                     <img src="images/icons/logo.svg" alt="loopstudios logo">
-                    <img src="images/icons/icon-close.svg" alt="icone de fechar" id="icon-close">
+                    <span><i class="material-symbols-outlined" id="icon-close">close</i></span>
+                    <!-- <img src="images/icons/icon-close.svg" alt="icone de fechar" id="icon-close"> -->
                 </div>
-                <div class="menu-list">
+                <nav class="menu-list">
                     <ul>
                         <li>
                             <a href="#">about</a>
@@ -43,13 +44,25 @@
                             <a href="#">support</a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>  
         </div>
-        <div class="title">
+        <div class="header__title">
             <h1>immersive experiences that deliver</h1>
         </div>
     </header>
+
+    <main class="border">
+        <section class="description">
+            <div class="description__image">
+                <img src="images/img-mobile/image-interactive.jpg" alt="pessoa usando óculos VR">
+            </div>
+            <div class="description__text">
+                <h2>the leader in interactive vr</h2>
+                <p>Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses throgh digital experiences that bind to their brand.</p>
+            </div>
+        </section>
+    </main>
 
     <script src="Javascript.js/javascript.js"></script>
 
