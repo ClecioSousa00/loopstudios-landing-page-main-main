@@ -25,3 +25,121 @@
 
 /* */
 
+
+@media screen and (min-width: 600px){
+  
+  .header__btn-menu{
+    display: none;
+  }
+
+  .header__nav-bar-desktop{
+    display: block;
+  }
+
+  .header__menu-list-desktop ul{
+    display: flex;
+    list-style: none;
+   
+  }
+
+  .header__menu-list-desktop ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+    margin-left: 0.8rem;
+
+  }
+
+  .header__title{
+    max-width: 60%;
+  }
+  .creations__imagens{
+    height: 20rem;
+  }
+
+  /* .earth-image{
+    background-position: center top;
+  }
+  .nigth-image{
+    background-position: center top;
+  }
+  .soccer-image{
+    background-position: center top;
+  }
+  .grid-image{
+    background-position: center top;
+  }
+  .above-image{
+    background-position: center top;
+  }
+  .pocket-image{
+    background-position: center top;
+  }
+  .curiosity-image{
+    background-position: center top;
+  }
+  .fisheye-image{
+    background-position: center top;
+  } */
+  
+}
+
+@media screen and (min-width: 768px)  {
+
+  .header{
+    background-position: center top;
+  }
+  .header__menu-list-desktop ul li a{
+    font-size: 3rem;
+    margin-left: 1.5rem;
+  }
+  .header__title{
+    max-width: 50%;
+  }
+  .creations__imagens{
+    height: 30rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    
+    header{
+      background-image: url(../images/img-desktop/image-hero.jpg);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0rem 3rem 3rem 3rem;
+      
+    }
+
+    .header__nav-bar .header__logo-icon{
+      justify-content: space-between;
+      
+    }
+    
+    .header__title{
+      width: 65.5rem;
+      height: 28rem;
+      border: 2px solid white;
+      margin: 0rem;
+      padding: 4.5rem;
+    }
+
+    .header__title h1{
+      font-size: 5.5rem;
+    }
+
+    .header__menu-list-desktop ul li{
+      transition: transform 0.4s;
+      transform-origin: center;
+    }
+    .header__menu-list-desktop ul li:hover{
+      transform: rotate(360deg);
+    }
+
+
+    
+  }
+}
