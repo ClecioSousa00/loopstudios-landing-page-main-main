@@ -36,7 +36,7 @@
                 <div class="header__icon-close">
                     <img src="images/icons/logo.svg" alt="loopstudios logo">
                     <span><i class="material-symbols-outlined" id="icon-close">close</i></span>
-                    <!-- <img src="images/icons/icon-close.svg" alt="icone de fechar" id="icon-close"> -->
+                   
                 </div>
                 <nav class="menu-list" >
                     <ul>
@@ -59,8 +59,11 @@
     <main >
         <section class="description">
             <div class="description__image">
-                <img src="images/img-mobile/image-interactive.jpg" alt="pessoa usando óculos VR">
-                <!-- colocar a imagem desktop e usar a tag picture -->
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/img-desktop/image-interactive.jpg">
+                    <img src="images/img-mobile/image-interactive.jpg" alt="pessoa usando óculos VR">
+                </picture>
+               
             </div>
             <div class="description__text">
                 <h2>the leader in interactive vr</h2>
@@ -96,23 +99,27 @@
     </main>
 
     <footer>
-        <img src="images/icons/logo.svg" alt="loopstudios logo">
-        <div class="footer__list">
-            <ul>
-                <li><a href="#">about</a></li>
-                <li><a href="#">careers</a></li>
-                <li><a href="#">events</a></li>
-                <li><a href="#">products</a></li>
-                <li><a href="#">support</a></li>
-            </ul>
+        <div class="footer__logo-list">
+            <img src="images/icons/logo.svg" alt="loopstudios logo">
+            <div class="footer__list">
+                <ul>
+                    <li>about</li>
+                    <li>careers</li>
+                    <li>events</li>
+                    <li>products</li>
+                    <li>support</li>
+                </ul>
+            </div>
         </div>
-        <div class="footer__social-media">
-            <img src="images/icons/icon-facebook.svg" alt="logo facebook">
-            <img src="images/icons/icon-twitter.svg" alt="logo Twitter">
-            <img src="images/icons/icon-pinterest.svg" alt="logo pinterest">
-            <img src="images/icons/icon-instagram.svg" alt="logo instagram">
+        <div class="footer__icons-text">
+            <div class="footer__social-media">
+                <img src="images/icons/icon-facebook.svg" alt="logo facebook">
+                <img src="images/icons/icon-twitter.svg" alt="logo Twitter">
+                <img src="images/icons/icon-pinterest.svg" alt="logo pinterest">
+                <img src="images/icons/icon-instagram.svg" alt="logo instagram">
+            </div>
+            <p class="footer__text">&copy 2021 Loopstudios. All rigths reserved.</p>
         </div>
-        <p class="footer__text">&copy 2021 Loopstudios. All rigths reserved.</p>
     </footer>
 
     <script src="Javascript.js/javascript.js"></script>
