@@ -4,20 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-  /* div{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    transition: transform 1s;
-    transform-origin: center;
-  }
 
-  div:hover{
-    transform: rotate(360deg);
-  } 
-  font-family: 'Alata', sans-serif;
-  transform: scale(1.5);
-  */
 *{
     margin: 0;
     padding: 0;
@@ -31,7 +18,7 @@ html{
 }
 header{
   background-image: url(../images/img-mobile/image-hero.jpg);
-  height: 70vh;
+  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -97,7 +84,7 @@ header{
 .header__title{
   max-width: 80%;
   border: 2px solid white;
-  margin: 30rem auto;
+  margin: 50% auto;
   padding: 4.5rem;
   
 }
@@ -184,7 +171,7 @@ main{
   font-weight: 300;
   color: white;
   font-size: 2.5rem;
-  max-width: 45%;
+  max-width: 60%;
   left: 2rem;
   bottom: 2rem;
   text-transform: uppercase;
@@ -265,10 +252,7 @@ main{
   font-weight: bold;
   cursor: pointer;
 }
-.creations__button button:hover{
-  background-color: black;
-  color: white;
-}
+
 /* ------------------------- */
 
 footer{
@@ -281,17 +265,20 @@ footer{
   
 }
 
-.footer__list ul li{
+.footer__list ul li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Alata', sans-serif;
   margin: 2rem 0rem;
   text-align: center;
   cursor: pointer;
 }
-.footer__list ul li a{
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem;
-  font-family: 'Alata', sans-serif;
-  
+.footer__icons-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer__social-media{
