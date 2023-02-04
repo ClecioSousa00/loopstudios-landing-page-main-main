@@ -1,17 +1,3 @@
- /* div{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    transition: transform 1s;
-    transform-origin: center;
-  }
-
-  div:hover{
-    transform: rotate(360deg);
-  } 
-  font-family: 'Alata', sans-serif;
-  */
-
 
 /* typical device breakpoints 
 
@@ -21,9 +7,6 @@
     desktop: max-width: 992px - 1024px
     extra large screens: above 1024px
 */
-/* version mobile first */
-
-/* */
 
 
 @media screen and (min-width: 600px){
@@ -59,31 +42,6 @@
     height: 20rem;
   }
 
-  /* .earth-image{
-    background-position: center top;
-  }
-  .nigth-image{
-    background-position: center top;
-  }
-  .soccer-image{
-    background-position: center top;
-  }
-  .grid-image{
-    background-position: center top;
-  }
-  .above-image{
-    background-position: center top;
-  }
-  .pocket-image{
-    background-position: center top;
-  }
-  .curiosity-image{
-    background-position: center top;
-  }
-  .fisheye-image{
-    background-position: center top;
-  } */
-  
 }
 
 @media screen and (min-width: 768px)  {
@@ -140,6 +98,142 @@
     }
 
 
+    /* ----------------------- */
     
+    .description{
+      position: relative;
+      
+    }
+    
+    .description__image img{
+      width: 70rem;
+    }
+
+    .description__text{
+      position: absolute;
+      margin-top: 0rem;
+      right: 0rem;
+      bottom: 0rem;
+      padding: 2.5rem;
+      max-width: 55%;
+      background-color: white;
+      z-index: 1;
+    }
+
+    /* ----------------------- */
+    .creations{
+      position: relative;
+      margin-top: 10rem;
+    }
+
+    .creations h2{
+      position: absolute;
+      font-size: 4rem;
+      left: 0;
+      margin-bottom: 0;
+      
+    }
+
+    
+    .creations__button{
+      position: absolute;
+      right: 0;
+      margin: 0;
+    }
+    .creations__button button{
+      transition: all 0.4s ease;
+      height: 5rem;
+      width: 15rem;
+      
+    }
+    
+    .creations__button button:hover{
+      background-color: black;
+      color: white;
+
+    }
+
+    .creations__container{
+      margin-top: 10rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .creations__imagens{
+      width: 100%;
+      height: 45.5rem;
+      margin-top: 2rem;
+      transition: all 0.4s ease;
+    }
+    .creations__imagens:hover{
+      margin-top: 0rem;
+     
+    }
+  .earth-image {
+    background-image: url(../images/img-desktop/image-deep-earth.jpg);
+  }
+
+  .nigth-image {
+    background-image: url(../images/img-desktop/image-night-arcade.jpg);
+  }
+
+  .soccer-image {
+    background-image: url(../images/img-desktop/image-soccer-team.jpg);
+  }
+
+  .grid-image {
+    background-image: url(../images/img-desktop/image-grid.jpg);
+  }
+
+  .above-image {
+    background-image: url(../images/img-desktop/image-from-above.jpg);
+  }
+
+  .pocket-image {
+    background-image: url(../images/img-desktop/image-pocket-borealis.jpg);
+  }
+
+  .curiosity-image {
+    background-image: url(../images/img-desktop/image-curiosity.jpg);
+  }
+
+  .fisheye-image {
+    background-image: url(../images/img-desktop/image-fisheye.jpg);
+  }
+
+
+    /* ------------------ */
+
+    footer{
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 4rem;
+      margin-top: 10rem;
+    }
+
+    .footer__list ul{
+      display: flex;
+      gap: 3rem;
+      margin-top: 1rem;
+    }
+    .footer__list ul li{
+      margin: 0rem;
+    }
+    
+   
+    .footer__social-media{
+      justify-content: flex-end;
+      margin: 2rem;
+    }
+   
+    
+  }
+
+  @media screen and (min-width: 1400px) {
+   
+   body{
+    width: 102.4rem;
+    margin: auto;
+   }
+
   }
 }
